@@ -10,9 +10,9 @@
 </head>
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <!-- <div class="container-fluid"> -->
+    
           <div class="container">
-              <a class="navbar-brand" href="#"><img src= codoacodo.png  alt="logo de codo a codo" width="100px" /></a>
+              <a class="navbar-brand" href="#"><img src= img/codoacodo.png  alt="logo de codo a codo" width="100px" /></a>
               <a class="navbar-brand" href="#">Conf Bs.As.</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,14 +23,14 @@
                     <a class="nav-link " href="#">Los oradores</a>
                     <a class="nav-link ">El lugar y la fecha</a>
                     <a class="nav-link ">Conviértete en orador</a>
-                    <a class="nav-link active text-success" href="#">Comprar ticket</a>
+                    <a class="nav-link active text-success" href="tickets.html" target="_blank">Comprar ticket</a>
                     
                   </div>
               </div>
           </div>
        </nav>
        <div class="card bg-dark text-white">
-        <img src="ConferenciaBS_As.jpg" class="card-img" alt="Lugar de Bs As">
+        <img src="img/ConferenciaBS_As.jpg" class="card-img" alt="Lugar de Bs As">
         <div class="card-img-overlay">
           <h5 class="card-title" >Conf Bs As</h5>
           <p class="card-text"  >Bs As llega por primera vez a Argentina.Un evento para compartir con
@@ -53,7 +53,7 @@
           <div class="container">
             <div class="card-group">
               <div class="card">
-                <img src="steve.jpg" class="card-img-top" alt="Imagen de Steve Jobs">
+                <img src="img/steve.jpg" class="card-img-top" alt="Imagen de Steve Jobs">
                 <div class="card-body">             
                   <span class="badge bg-warning text-dark">JavaScript</span>
                   <span class="badge bg-primary">React</span>   
@@ -66,7 +66,7 @@
                 </div>
               </div>
               <div class="card">
-                <img src="bill.jpg" class="card-img-top" alt="Imagen de Bill Gates">
+                <img src="img/bill.jpg" class="card-img-top" alt="Imagen de Bill Gates">
                 <div class="card-body">
                   <span class="badge bg-warning text-dark">JavaScript</span>
                   <span class="badge bg-primary">React</span>
@@ -78,7 +78,7 @@
                 </div>
               </div>
               <div class="card">
-                <img src="ada.jpeg" class="card-img-top" alt="Imagen de Ada">
+                <img src="img/ada.jpeg" class="card-img-top" alt="Imagen de Ada">
                 <div class="card-body">
                   <span class="badge bg-secondary">Negocios</span>
                   <span class="badge bg-danger">Startups</span>
@@ -95,7 +95,7 @@
             
               <div class="row g-0">
                 <div class="col-md-6">
-                  <img src="honolulu.jpg" class="img-fluid rounded-start" alt="Imagen de Honolulu">
+                  <img src="img/honolulu.jpg" class="img-fluid rounded-start" alt="Imagen de Honolulu">
                 </div>
                 <div class="col-md-6">
                   <div class="card-bodys">
@@ -114,12 +114,13 @@
            </div>
            <div class="container">
             <form class="container">
-
+                <div class="row text-center">
               <div class="text-oradores">
                 <p>CONVIERTETE EN UN </p>
                 <h2>ORADOR</h2>
                 <h6>Anótate como orador para dar una <u>charla ignite.</u> Cuéntanos  de qué quieres hablar!</h6>
               </div>
+            </div>
               <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
@@ -134,34 +135,66 @@
               
               <div class="form-group col-6">
                 <label for="exampleFormControlTextarea1"></label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Sobre quieres charlas?</textarea>
+                <textarea class="form-control" rows="3" placeholder="Sobre qué quieres charlas?"></textarea>
+            
               </div>
-              <div class="text-oradores">
-              <h6>Recuerda incluir un titulo para tu charla</h6>
+              <div class="row text-center">
+                <div class="text-oradores">
+                  <h6>Recuerda incluir un titulo para tu charla</h6>
+               </div>
+
               </div>
+             
               <div class="col-3"></div>
-              <button type="button" class="col-6 btn btn-success .p-3">Enviar</button>      
+              <button id="Enviar" type="button" class="col-6 btn btn-success .p-3">Enviar</button>      
             </div>
             
             </form>
-          
-           
-   <footer>
-    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-md" style="background-color:#15657E ;">
-          <a class="nav-link" href="#">Preguntas <br> Frecuentes</a>
-            <a class="nav-link" href="#">Contáctanos</a>
-            <a class="nav-link" href="#">Prensa</a>
-            <a class="nav-link" href="#">Conferencias</a>
-            <a class="nav-link" href="#">Términos y <br> condiciones</a>
-            <a class="nav-link" href="#">Privacidad</a>
-            <a class="nav-link" href="#">Estudiantes</a>
+
+    <footer>
+           <div class="pie-pagina">
+          <div class="container">
+                <div class="row text-center">               
+                    <div class="col">
+                     <a class="nav-link" href="#">Preguntas <br> Frecuentes</a>
+                    </div>
+
+                    <div class="col">
+                      <a class="nav-link" href="#">Contáctanos</a>
+                    </div>
+
+                   <div class="col">                       
+                    <a class="nav-link" href="#">Prensa</a>                    
+                   </div>
+
+                   <div class="col">
+                    <a class="nav-link" href="#">Conferencias</a>
+                   </div>
+
+                   <div class="col">
+                    <a class="nav-link" href="#">Términos y <br> condiciones</a>
+                   </div>
+
+                   <div class="col">
+                    <a class="nav-link" href="#">Privacidad</a>
+                   </div>
+                   <div class="col">
+                    <a class="nav-link" href="#">Estudiantes</a>
+                   </div>
+                  
+                    </div>
+                </div>
+
+
+
+          </div>
         </div>
-      </nav>
-      
-     
-    
-   </footer> 
+ 
+    </footer> 
+
+
+
+          
+ 
 </body>
 </html>
